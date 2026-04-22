@@ -3,7 +3,7 @@
 
 #include "Bureaucrat.hpp"
 
-class Form
+class Form : public Bureaucrat
 {
     std::string name;
     bool Signed;
