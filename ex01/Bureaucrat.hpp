@@ -31,6 +31,7 @@ class Bureaucrat
 	void setGrade(int grade);
 	Bureaucrat& operator++();
 	Bureaucrat& operator--();
+	void signForm(Form& form);
 };	
 
 std::ostream& operator<<(std::ostream &cout ,Bureaucrat &obj);
